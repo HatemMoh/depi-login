@@ -103,8 +103,6 @@ allInputs.forEach((input) => {
 // save signup data in local storage if in signup page and clicked signup and no errors found
 
 document.getElementById("signup-button")?.addEventListener("click", (e) => {
-  e.preventDefault();
-
   const errors = getSignupFormErrors(
     firstname_input.value,
     lastname_input.value,
